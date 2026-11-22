@@ -1,9 +1,9 @@
 class FleetHost < Formula
   desc "Fleet host agent — contribute your machine to the fleet and earn"
   homepage "https://sadigitalsolutions.in"
-  version "0.15.0"
-  url "https://fleet-downloads-sadigital.s3.ap-south-1.amazonaws.com/fleet-host-darwin-arm64-8010c0c9b0bf.tar.gz"
-  sha256 "2c2e2f4b2ff9dae34ce61bf907fe0fefbc8e1b47d014b20c5b716072845cd40f"
+  version "0.16.0"
+  url "https://fleet-downloads-sadigital.s3.ap-south-1.amazonaws.com/fleet-host-darwin-arm64-eb8cfa1c9bb7.tar.gz"
+  sha256 "ced9c14e352c36964132ca1f6db90c5fe1f06a478d2d149ad9636468fb310595"
 
   depends_on :macos
   depends_on arch: :arm64
